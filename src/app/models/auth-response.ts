@@ -1,6 +1,6 @@
-import { User } from "./user";
+import { UserResponse } from "./user-response";
 
 export type AuthResponse = {
   token: string;
-  user: User;
+  user: UserResponse;
 };
